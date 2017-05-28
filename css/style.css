@@ -2,7 +2,6 @@
     background-color: rgb(50, 60, 70);
     font-family: 'Agency FB', Georgia, Serif;
     font-size: 18px;
-    min-width: 360px;
 }
 
 h2 {
@@ -83,13 +82,13 @@ content {
     height: 200px;
 }
 
-@media (min-width: 440px) and (max-width: 767px) {
+@media (min-width: 460px) and (max-width: 767px) {
     .back-art {
         height: 150px;
     }
 }
 
-@media (max-width: 439px) {
+@media (max-width: 459px) {
     .back-art {
         height: 100px;
     }
@@ -99,14 +98,19 @@ content {
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 22px;
+    }
+
+    content {
+        margin-top: 10px;
     }
 }
 
 .art {
     width: 100%;
+    min-width: 140px;
     max-width: 250px;
-    margin-top: 20px;
+    margin-top: 18px;
     padding: 5px;
 }
 
