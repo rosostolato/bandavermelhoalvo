@@ -93,6 +93,14 @@ content {
     .back-art {
         height: 100px;
     }
+
+    body {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
 }
 
 .art {
