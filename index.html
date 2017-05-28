@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+
+    <title>Vermelho Alvo | Oficial</title>
+
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery.jplayer.min.js"></script>
+    <script src="player.js"></script>
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bs_override.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="top-bar navbar-fixed-top">
+        <div class="container">
+            <div class="player-controls">
+                <span class="glyphicon glyphicon-fast-backward player-prev"></span>
+                <span class="glyphicon glyphicon-play player-play"></span>
+                <span class="glyphicon glyphicon-pause player-pause"></span>
+                <span class="glyphicon glyphicon-stop player-stop"></span>
+                <span class="glyphicon glyphicon-fast-forward player-next"></span>
+            </div>
+            <div class="player"></div>
+            <div class="player-display">
+                <span class="player-current-track"></span>
+            </div>
+            <div class="player-timeline">
+                <div class="player-timeline-control"></div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="back-art" ></div>
+        <nav class="container navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li><a href="#">BANDA</a></li>
+                    <li><a href="#">FOTOS</a></li>
+                    <li><a href="#">AGENDE UM SHOW</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <content class="container">
+        <div class="row">
+            <div class="col-xs-6 text-center">
+                <img src="Images/art.jpg" class="art img-thumbnail" />
+            </div>
+
+            <div class="col-xs-6">
+                <h2>EP Doce Ilusão</h2>
+                <p>Novo EP do Vermelho Alvo já está disponível</p>
+                <div>
+                    <span><a target="_blank" href="https://open.spotify.com/album/4fL3lP7vqZb5dz9b0lC7Gx"><img src="Images/spotify.jpg" class="spotify" /></a></span>
+                    <span><a target="_blank" href="http://www.deezer.com/album/14719282?utm_source=deezer&utm_content=album-14719282&utm_term=894643537_1495989995&utm_medium=web"><img src="Images/deezer.png" class="spotify" /></a></span>
+                </div>
+            </div>
+        </div>
+    </content>
+
+    <div class="container">
+        <img src="Images/band.jpg" class="band-art" />
+    </div>
+</body>
+</html>
