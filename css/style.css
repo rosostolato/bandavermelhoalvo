@@ -104,6 +104,10 @@ content {
     content {
         margin-top: 10px;
     }
+    
+  .navbar {
+     font-size: 14px;
+  }
 }
 
 .art {
